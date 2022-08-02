@@ -1,0 +1,70 @@
+.line-link {
+  position: relative;
+  text-decoration: none;
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 1rem;
+    left: 0;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  &:hover {
+    &:after {
+      border-bottom: 1px solid #5d78ff;
+      opacity: 0.5;
+      width: 100%;
+    }
+  }
+}
+
+.blue-link {
+  color: #5d78ff !important;
+  &:hover {
+    color: #5d78ff !important;
+  }
+
+}
+
+.body,
+.v-application{
+  font-family: Poppins, Helvetica, "sans-serif" !important;
+}
+
+.gray-link {
+  color: #9d9fb1 !important;
+  &:hover {
+    color: #9d9fb1 !important;
+  }
+}
+
+.f-500 {
+  font-weight: 500 !important;
+}
+.f-300 {
+  font-weight: 300!important;
+}
+
+.card-header {
+  padding: 1.5rem 2rem !important;
+}
+
+.btn .fa-icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.btn .fa-icon:last-child {
+  margin-right: 0;
+}
+
+.date-time-picker {
+  input, p, span{
+    font-family: Poppins, Helvetica, "sans-serif" !important;
+  }
+}
+.vertical-center {
+  vertical-align: middle !important;
+}
